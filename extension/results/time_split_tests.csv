@@ -1,0 +1,9 @@
+test,dataset,protocol,encoding,selector,k,sample,shots,model,n,mean_diff,p_value
+best quantum vs RF,MQTTEEB-D2025,clean+no_epoch,bounded,QKA_MI,3,0.002,exact,QSVM/Pauli,10,-0.018380654443676904,0.013671875
+best quantum vs RF,MQTTEEB-D2025,clean+no_epoch,bounded,QKA_MI,3,0.005,exact,QSVM/Z,10,-0.01886004383225267,0.001953125
+best quantum vs RF,MQTTEEB-D2025,clean+no_epoch,bounded,RF,3,0.002,exact,QSVM/HybridPauliZZ,10,-0.050388275839943285,0.064453125
+best quantum vs RF,MQTTEEB-D2025,clean+no_epoch,bounded,RF,3,0.005,exact,QSVM/Z,10,-0.019598193067034586,0.001953125
+best quantum vs RF,MQTTEEB-D2025,clean+no_epoch,twopi,QKA_MI,3,0.002,exact,QSVM/Z,10,-0.017636765845409907,0.009765625
+best quantum vs RF,MQTTEEB-D2025,clean+no_epoch,twopi,QKA_MI,3,0.005,exact,QSVM/Z,10,-0.02150258062176529,0.001953125
+best quantum vs RF,MQTTEEB-D2025,clean+no_epoch,twopi,RF,3,0.002,exact,QSVM/Z,10,-0.014167163309459042,0.080078125
+best quantum vs RF,MQTTEEB-D2025,clean+no_epoch,twopi,RF,3,0.005,exact,QSVM/Z,10,-0.0212652060879163,0.001953125

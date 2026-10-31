@@ -1,0 +1,25 @@
+test,dataset,selector,k,sample,shots,model,fmap,n,mean_diff,p_value
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,1024,PegasosQSVC,HybridPauliZZ,10,0.10750970594147213,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,1024,PegasosQSVC,Pauli,10,0.10795908226285625,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,1024,PegasosQSVC,Z,10,0.0992456967831134,0.005859375
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,1024,PegasosQSVC,ZZ,10,0.07334244499748833,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,1024,QSVM,HybridPauliZZ,10,0.059193719893410476,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,1024,QSVM,Pauli,10,0.03974797205818785,0.02734375
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,1024,QSVM,Z,10,0.045327883957372986,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,1024,QSVM,ZZ,10,0.04419363745297433,0.00390625
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,256,PegasosQSVC,HybridPauliZZ,10,0.11113927323559283,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,256,PegasosQSVC,Pauli,10,0.09501774421594034,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,256,PegasosQSVC,Z,10,0.08671948392998077,0.064453125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,256,PegasosQSVC,ZZ,10,0.10316187160652546,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,256,QSVM,HybridPauliZZ,10,0.055087373478174495,0.00390625
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,256,QSVM,Pauli,10,0.046522025721693575,0.00390625
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,256,QSVM,Z,10,0.04989793368303506,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,256,QSVM,ZZ,10,0.039978901983580485,0.01953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,4096,PegasosQSVC,HybridPauliZZ,10,0.11909434934313852,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,4096,PegasosQSVC,Pauli,10,0.09592920993894191,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,4096,PegasosQSVC,Z,10,0.09564498695624657,0.009765625
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,4096,PegasosQSVC,ZZ,10,0.10825442354508286,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,4096,QSVM,HybridPauliZZ,10,0.05833956892996921,0.00390625
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,4096,QSVM,Pauli,10,0.0421497328669164,0.00390625
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,4096,QSVM,Z,10,0.04680340787881272,0.001953125
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,QKA_MI,3,0.05,4096,QSVM,ZZ,10,0.04300597716723309,0.00390625

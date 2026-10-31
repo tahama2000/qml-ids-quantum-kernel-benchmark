@@ -1,0 +1,1 @@
+2026-10-24 19:43 python 3.13.16 qiskit 2.6.1 qiskit-ml 0.9.1 sklearn 1.9.1 numpy 2.5.3 imblearn 0.14.2

@@ -1,0 +1,49 @@
+test,dataset,protocol,encoding,selector,k,sample,shots,model,n,mean_diff,p_value,fmap
+best quantum vs RF,NSL-KDD,clean,bounded,QKA_MI,3,0.1,exact,QSVM/HybridPauliZZ,10,-0.0014028202956265167,0.921875,
+best quantum vs RF,NSL-KDD,clean,bounded,RF,3,0.1,exact,QSVM/Pauli,10,-0.10409970107611732,0.001953125,
+best quantum vs RF,NSL-KDD,clean,twopi,QKA_MI,3,0.1,exact,QSVM/Z,10,-0.01154181946449745,0.009765625,
+best quantum vs RF,NSL-KDD,clean,twopi,RF,3,0.1,exact,QSVM/Pauli,10,-0.10116013214616586,0.001953125,
+best quantum vs RF,UNSW-NB15,clean,bounded,QKA_MI,3,0.005,exact,QSVM/Pauli,10,0.00882970648619873,0.4375,
+best quantum vs RF,UNSW-NB15,clean,bounded,RF,3,0.005,exact,QSVM/Pauli,10,0.01459520399068449,0.00390625,
+best quantum vs RF,UNSW-NB15,clean,twopi,QKA_MI,3,0.005,exact,QSVM/Pauli,10,0.020081281845146303,0.001953125,
+best quantum vs RF,UNSW-NB15,clean,twopi,RF,3,0.005,exact,QSVM/Pauli,10,0.01453523190879904,0.00390625,
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,PegasosQSVC,10,0.06810553889618556,0.001953125,HybridPauliZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,PegasosQSVC,10,0.05244194418875477,0.013671875,Pauli
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,PegasosQSVC,10,0.030462951365412404,0.130859375,Z
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,PegasosQSVC,10,0.05244194418875477,0.013671875,ZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,QSVM,10,0.03906979179349649,0.005859375,HybridPauliZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,QSVM,10,0.046774185644633134,0.001953125,Pauli
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,QSVM,10,0.031120079234183074,0.013671875,Z
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,QSVM,10,0.046774185644633134,0.001953125,ZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,RandomForest,10,0.023961671002763196,0.02734375,Classical
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,QKA_MI,3,0.1,exact,SVM,10,0.026228046774024606,0.02734375,Classical
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,PegasosQSVC,10,-0.0692646487617387,0.9609375,HybridPauliZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,PegasosQSVC,10,-0.08835639433058531,0.21875,Pauli
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,PegasosQSVC,10,-0.02698594357816424,0.21875,Z
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,PegasosQSVC,10,-0.08835639433058531,0.21875,ZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,QSVM,10,-0.005468673234477861,0.009765625,HybridPauliZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,QSVM,10,-0.002939568929951464,0.15625,Pauli
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,QSVM,10,-0.1270877244364632,0.0546875,Z
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,QSVM,10,-0.002939568929951464,0.15625,ZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,RandomForest,10,0.0,,Classical
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",NSL-KDD,,,RF,3,0.1,exact,SVM,10,0.0,,Classical
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,PegasosQSVC,10,-0.0034732677270329247,0.431640625,HybridPauliZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,PegasosQSVC,10,-0.06356706475219032,1.0,Pauli
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,PegasosQSVC,10,-0.06844612871921152,0.322265625,Z
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,PegasosQSVC,10,-0.06356706475219032,1.0,ZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,QSVM,10,-0.0013581232547701493,0.921875,HybridPauliZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,QSVM,10,-0.005041535840091482,0.76953125,Pauli
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,QSVM,10,-0.01063155541558336,0.275390625,Z
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,QSVM,10,-0.005041535840091482,0.76953125,ZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,RandomForest,10,0.006210039518856092,0.6953125,Classical
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,QKA_MI,3,0.005,exact,SVM,10,-0.009846776521930634,0.09375,Classical
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,PegasosQSVC,10,0.02696742980166632,0.625,HybridPauliZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,PegasosQSVC,10,0.0008172315070913982,0.9609375,Pauli
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,PegasosQSVC,10,0.00038006669645591906,0.6953125,Z
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,PegasosQSVC,10,0.0008172315070913982,0.9609375,ZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,QSVM,10,0.0004469811712634497,0.15625,HybridPauliZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,QSVM,10,5.9972081885451003e-05,1.0,Pauli
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,QSVM,10,-0.029714508853037124,0.0625,Z
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,QSVM,10,5.9972081885451003e-05,1.0,ZZ
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,RandomForest,10,0.0,,Classical
+"encoding fix (clean [0,2pi] -> clean [0,pi/2]+clip)",UNSW-NB15,,,RF,3,0.005,exact,SVM,10,0.0,,Classical
