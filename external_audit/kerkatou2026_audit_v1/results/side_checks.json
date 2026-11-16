@@ -1,0 +1,14 @@
+{
+  "rows_file": 25192,
+  "rows_as_loaded": 25191,
+  "exact_duplicate_rows": 0,
+  "duplicates_ignoring_level": 0,
+  "level_only_RF_acc_5cv": 0.7457132106764538,
+  "level_only_tree_depth3_acc_5cv": 0.7461101542151449,
+  "majority_class_rate": 0.5338599555414417,
+  "mean_level_normal": 20.300171016432447,
+  "mean_level_attack": 18.55718300263987,
+  "mixed_kernel_diag_mean": 0.06714645523975185,
+  "mixed_kernel_max_asymmetry": 0.3971657767085592,
+  "mixed_kernel_min_eig_sym": -0.6533367296210062
+}

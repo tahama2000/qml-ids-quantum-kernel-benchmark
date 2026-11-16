@@ -1,0 +1,14 @@
+rows (361200, 86) attacks 12030
+selected P: ['P3_LIT01', 'P1_TIT02', 'P1_LCV01D', 'P1_PCV01Z', 'P1_TIT03', 'P1_LCV01Z', 'P1_LIT01', 'P1_B3004']
+selected T: ['P3_LIT01', 'P1_PCV01D', 'P1_TIT02', 'P1_TIT03', 'P1_B2004', 'P1_PCV01Z', 'P1_LCV01D', 'P1_B3005']
+seed 42 26s
+seed 123 57s
+seed 999 89s
+seed 2024 120s
+seed 555 151s
+seed 1 180s
+seed 2 214s
+seed 3 242s
+seed 4 272s
+seed 5 303s
+done
